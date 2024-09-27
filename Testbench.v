@@ -57,6 +57,8 @@ module multiplier_tb;
 	end
 	
 	initial begin
+		$dumpfile("dump.vcd");
+  $dumpvars(1);
 		// Initialize Inputs
 		a_in = 0;
 		b_in = 0;
